@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" />
-<title>Polimorfismo com PHP</title>
-
-<!-- javascript -->
-<script type="text/javascript">
-	//transporte de dados do PHP para o JavaScript
-	var vs_index="<?php echo $_POST['instrumento']; ?>";
-</script>
-<script src="js/script.js"></script>
-
+	<meta charset="UTF-8" />
+	<title>Polimorfismo com PHP</title>
 </head>
 <body>
 
@@ -32,7 +24,15 @@
 		<button type="submit">OK</button>
 	</fieldset>
 </form>
+
 <p><?php require("paginas/pgn_factory.php"); ?></p>
+
+<!-- javascript -->
+<script type="text/javascript">
+	//transporte de dados do PHP para o JavaScript
+	var vs_index="<?php echo $_POST['instrumento']; ?>";
+</script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
