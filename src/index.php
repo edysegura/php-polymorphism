@@ -7,7 +7,7 @@
 <body>
 
 <h1>Polimorfismo com PHP</h1>
-<p>Exemplo de polimorfismo no PHP5, para mais detalhes veja o c�digo fonte.</p>
+<p>Exemplo de polimorfismo no PHP5, para mais detalhes veja o código fonte!</p>
 
 <!-- Resultado -->
 <h2>Resultado</h2>
